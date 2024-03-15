@@ -1,22 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
-import Buttoncomponent from './components/functions/button/buttoncomponent';
-import Imagecomponent from './components/functions/image/imagecomponent';
+import Jsxfunctional from './classcomponents/class/jsxfunctional/jsxfunctional';
+import Jsxobject from './classcomponents/class/jsxfunctional/objectjsx';
+import JSX from './classcomponents/class/jsxclass/classjsx';
+import Hello from './classcomponents/class/jsxclass/classjsx';
 import Orderlist from './components/functions/lists/order/orderlist';
 import Unorderlist from './components/functions/lists/unorder/unorderlist';
-import Cardcomponent from './components/functions/cards/card';
-import Tablecomponent from './components/functions/table/table';
+import Hello1 from './classcomponents/class/jsx/jsx';
 
 function App() {
   return (
     <div>
-     <Buttoncomponent/>
-     <Imagecomponent/>
-     <Orderlist/>
-     <Unorderlist/>
-     <Tablecomponent/>
-     <Cardcomponent/>
-     
+      <Hello/>
+       <Jsxfunctional/>
+      <Jsxobject/> 
+      
+      
+      
     </div>
 
   );
